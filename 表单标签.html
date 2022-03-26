@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单</title>
+</head>
+<body>
+    <!--form 定义表单-->
+<form action="#" method="post">
+
+    用户名：<input type='text'name="username" placeholder="请输入用户名"><br>
+    密码：  <input type="password"name="password"placeholder="请输入密码"><br>
+    性别： <input type="radio" name="gender" value="male"> 男
+           <input type="radio" name="gender" value="female"> 女
+           <br>
+    爱好：<input type="checkbox" name="hobby" values="shopping"> 逛街
+          <input type="checkbox" name="hobby" values="Java"> Java
+          <input type="checkbox" name="hobby" values="game"> 游戏<br>
+    图片：<input type="file" name="file"><br>
+    生日：<input type="date" name="birthday" ><br>
+
+    省份：<select name="province">
+            <option value="">--请选择--</option><!--指定文本域 option-->
+            <option value="1">北京</option>
+            <option>陕西</option>
+            <option>上海</option>
+    </select><br>
+
+    自我描述：<textarea clos="8" rows="2" name="des"> </textarea>
+    <input type="submit" value="登录"> <!--提交按钮 submit 可以提交表单-->
+    <input type="button" value="一个按钮"><br>
+    <input type="image" src=""><br><!--图片提交按钮-->
+
+</form>
+</body>
+</html>
